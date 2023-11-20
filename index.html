@@ -12,10 +12,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/components/home.css">
     <title>Web Portfolio</title>
   </head>
   <body>
-    <!-- <button class="btn-style ">Hello</button> -->
+    <header class="heaader__container">
+      <nav class="header__menu">
+      <h2 class="text-fnt-semi-bold logo-text"><span class="logo-back-slash">/</span>Francis</h2>
+      <img src="./menu-icon.svg" alt="" class="menu__bar">
+        <ul class="header__link">
+          <li class="text-fnt-semi-bold ">
+            <a href="#" class="nav__link">About</a>
+          </li>
+          <li class="text-fnt-semi-bold">
+            <a href="#" class="nav__link">Work</a>
+          </li>
+          <li class="text-fnt-semi-bold">
+            <a href="#" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main__container">
+      <section class="hero__container">
+        <div class="hero__left">
+          <div class="name__container">
+            <h1 class="name__text">Ghian</h1>
+            <h1 class="name__text" style="color: var(--clr-primary);">Francis</h1>
+          </div>
+          <div class="img__wrapper">
+            <img src="./profile-pic.png" alt="" class="profile__img">
+          </div>
+          <div class="fade"></div>
+        </div>
+        <div class="hero__right">
+          <p class="hello__text">/ Hello.</p>
+          <p class="role__text header-text-fnt">Web Developer & UI Designer</p>
+          <p class="hero__description text-fnt-semi-bold">
+            A reliable professional imaginative web developer and ui designer, I create quality content that make a modern brand truly shine
+          </p>
+          <button type="button" class="hero__btn btn-style">
+            <a href="#">Read about me</a>
+          </button>
+          <!-- <div class="hr__line"></div> -->
+        </div>
+      </section>
+      <section class="about__container">
+      </section>
+      <section class="contact__container"></section>
+    </main>
+    <footer class="footer__container"></footer>
+    
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

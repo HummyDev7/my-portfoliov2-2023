@@ -24,6 +24,11 @@
   --size-10xl: 10rem;
 }
 
+body {
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+}
+
 *,
 *::after,
 *::before {
@@ -103,6 +108,7 @@ h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.fnt {
-  font-family: 'Open Sans', sans-serif;
+a {
+  text-decoration: none;
+  color: var(--clr-dark);
 }
