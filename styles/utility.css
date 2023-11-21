@@ -31,7 +31,7 @@
   color: var(--clr-dark);
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  height: auto;
+  height: 4rem;
 }
 
 .container {
@@ -59,6 +59,14 @@
   border-bottom: 1.5px solid var(--clr-dark-gray);
   margin: var(--size-2xl) var(--size-2xl) 0 0;
   border-radius: 10px;
+}
+
+footer a {
+  color: var(--clr-light);
+}
+
+li a {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* xss */
