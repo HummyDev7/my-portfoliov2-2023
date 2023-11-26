@@ -1,13 +1,15 @@
 import '../styles/style.css';
 import '../styles/modernize.css';
+import '../styles/components/home.css';
 import '../styles/utility.css';
+import '../src/attractHover.js';
 
 const checkLargeSize = window.matchMedia('(min-width: 640px)');
 const checkLargeSize2 = window.matchMedia('(min-width: 768px)');
 const checkLargeSize3 = window.matchMedia('(min-width: 1280px)');
 const aboutContainer = document.querySelector('.about__container');
 const contactContainer = document.querySelector('.cntct__sub-container');
-
+  
 function checkSize( e ) {
   if ( e.matches ) {
     aboutContainer.classList.add('size640');
@@ -38,6 +40,7 @@ function checkme( e ) {
   }
 }
 
+
 checkLargeSize.addListener(checkSize);
 checkSize(checkLargeSize);
 
@@ -46,3 +49,4 @@ sizeCheck(checkLargeSize2);
 
 checkLargeSize3.addListener(checkme);
 checkme(checkLargeSize3);
+

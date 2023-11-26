@@ -20,7 +20,6 @@
 /* @media (min-width: 1536px) {} */
 
 
-
 .btn-style {
   background-color: transparent;
   border-radius: 5rem;
@@ -58,7 +57,6 @@
   padding-right: 6rem;
 }
 
-
 .size1080 {
   width: 100%;
   margin-left: auto;
@@ -69,6 +67,14 @@
 
 .section {
   margin-top: 5rem;
+}
+
+.attract-hover {
+  display: inline-block;
+}
+
+.attract-hover-easing {
+  transition: all 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 
 .text-fnt-semi-bold {
@@ -104,6 +110,24 @@ a button {
 
 .cntct__link {
   color: var(--clr-light);  
+}
+
+.link__hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: var(--clr-primary);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.link__hover:hover::after{
+  transform: scaleX(1);
+  transition: bottom left;
 }
 
 /* xss */
