@@ -1,8 +1,11 @@
 import '../styles/style.css';
-import '../styles/modernize.css';
+import '../styles/modernize.css'; 
+import '../styles/shared-files/contactOne.css';
+import '../styles/shared-files/footer.css';
+import '../styles/shared-files/header.css';
 import '../styles/components/home.css';
+import '../styles/components/about.css';
 import '../styles/utility.css';
-import '../src/attractHover.js';
 
 const checkLargeSize = window.matchMedia('(min-width: 640px)');
 const checkLargeSize2 = window.matchMedia('(min-width: 768px)');
