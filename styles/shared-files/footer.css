@@ -1,0 +1,129 @@
+.footer_container {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  height: 12rem;
+}
+
+.left__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-xs);
+}
+
+.socials__links ul {
+  display: flex;
+  gap: var(--size-xs);
+  margin-bottom: var(--size-3xl);
+  font-size: var(--size-sm);
+}
+
+.right__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-xs);
+}
+
+/* xss */
+/* @media (min-width: 320px) {} */
+
+/* xs */
+@media (min-width: 475px) {
+  .footer_container {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    height: 12rem;
+  }
+
+  .socials__links ul {
+    gap: var(--size-xl);
+    margin-bottom: var(--size-4xl);
+    font-size: var(--size-base);
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .footer_container {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    height: 6rem;
+  }
+
+  .footer__sub-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .socials__links ul {
+    display: flex;
+    gap: var(--size-lg);
+    margin-bottom: var(--size-3xl);
+    font-size: var(--size-base);
+  }
+  
+  .right__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-xs);
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+   /*! Styling footer container */
+   .footer_container {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    height: 6rem;
+  }
+
+  .footer__sub-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .socials__links ul {
+    display: flex;
+    gap: var(--size-lg);
+    margin-bottom: var(--size-3xl);
+    font-size: var(--size-base);
+  }
+  
+  .right__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-xs);
+  }
+}  
+
+/* lg */
+@media (min-width: 1024px) {
+  .footer_container {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    height: 6rem;
+  }
+
+  .socials__links ul {
+    gap: var(--size-xl);
+    margin-bottom: var(--size-3xl);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .footer_container {
+    height: 6.5rem;
+  }
+
+  .socials__links ul {
+    gap: var(--size-2xl);
+  }
+}
+
+/* 2xl */
+@media (min-width: 1336px) {
+  .socials__links ul {
+    gap: var(--size-3xl);
+  }
+}
