@@ -19,20 +19,6 @@
 /* 2xl */
 /* @media (min-width: 1536px) {} */
 
-
-.btn-style {
-  background-color: transparent;
-  border-radius: 5rem;
-  border: 1.8px solid var(--clr-dark-gray);
-  padding: var(--size-xss) var(--size-sm) var(--size-xss) var(--size-sm);
-  text-align: center;
-  width: fit-content;
-  color: var(--clr-dark);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  height: fit-content ;
-}
-
 .container {
   width: 100%;
   margin-left: auto;
